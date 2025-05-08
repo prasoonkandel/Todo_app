@@ -1,0 +1,55 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+.not-found-content {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.ninja-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 72px;
+  color: #ff6f61;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #555;
+}
+
+.description {
+  font-size: 16px;
+  margin: 10px 0 20px;
+  line-height: 1.5;
+}
+
+.home-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-button:hover {
+  background-color: #ff4f41;
+  transform: scale(1.05);
+}
