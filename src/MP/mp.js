@@ -1,4 +1,3 @@
-import { PiX } from "react-icons/pi";
 import NAVBAR from "./navbar";
 import { FiEye } from "react-icons/fi";
 import { Link } from "react-router-dom";

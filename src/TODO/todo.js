@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import NAVBAR from "../MP/navbar";
 
-import { Navigate, useNavigate } from "react-router-dom";
-import Auth from "../authcheck";
+import { useNavigate } from "react-router-dom";
 
 const Td = () => {
   const tdtxt = useRef();
